@@ -34,10 +34,10 @@ def parse_xml_labels(file_path):
 # Replace 'path_to_your_files' with the actual paths to your XML files
 # Here is the download link from the website: https://zenodo.org/records/1489920 
 # Training dataset and training ground truth is a piar, validation dataset and validation ground truth is a pair (their IDs correspond)
-train_articles = parse_xml_articles(r'C:\Users\justi\OneDrive\Desktop\NLP_final_project\articles-training-bypublisher-20181122\articles-training-bypublisher-20181122.xml')
-train_labels = parse_xml_labels(r'C:\Users\justi\OneDrive\Desktop\NLP_final_project\ground-truth-training-bypublisher-20181122\ground-truth-training-bypublisher-20181122.xml')
-validation_articles = parse_xml_articles(r'C:\Users\justi\OneDrive\Desktop\NLP_final_project\articles-validation-bypublisher-20181122\articles-validation-bypublisher-20181122.xml')
-validation_labels = parse_xml_labels(r'C:\Users\justi\OneDrive\Desktop\NLP_final_project\ground-truth-validation-bypublisher-20181122\ground-truth-validation-bypublisher-20181122.xml')
+train_articles = parse_xml_articles(r'C:\Users\pengu\OneDrive - Georgia Institute of Technology\Spring 2024\CS 4650\Project\CS-4650-Final\data\articles-training-bypublisher-20181122\articles-training-bypublisher-20181122.xml')
+train_labels = parse_xml_labels(r'C:\Users\pengu\OneDrive - Georgia Institute of Technology\Spring 2024\CS 4650\Project\CS-4650-Final\data\ground-truth-training-bypublisher-20181122\ground-truth-training-bypublisher-20181122.xml')
+validation_articles = parse_xml_articles(r'C:\Users\pengu\OneDrive - Georgia Institute of Technology\Spring 2024\CS 4650\Project\CS-4650-Final\data\articles-validation-bypublisher-20181122\articles-validation-bypublisher-20181122.xml')
+validation_labels = parse_xml_labels(r'C:\Users\pengu\OneDrive - Georgia Institute of Technology\Spring 2024\CS 4650\Project\CS-4650-Final\data\ground-truth-validation-bypublisher-20181122\ground-truth-validation-bypublisher-20181122.xml')
 
 # Merge articles and labels on ID
 train_data = pd.merge(train_articles, train_labels, on='id')
