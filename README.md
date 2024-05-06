@@ -2,11 +2,11 @@
 
 ## Authors
 
-Mark Glinberg
+[Mark Glinberg](https://github.com/mark-glinberg)
 
-Stephan Tserovski
+[Stephan Tserovski](https://github.com/tserovskis)
 
-Justin Huang
+[Justin Huang](https://github.com/justin910113)
 
 ## Description
 
@@ -19,6 +19,10 @@ dataset_and_model.ipynb - Jupyter notebook for model loading, running, and visua
 model_explaining.ipynb - Jupyter notebook for running LIME and transformers-interpret to explain how the model makes predictions
 
 requirements.txt - Requirements file to setup virtual Conda environment in order to run our code
+
+Project Guidelines.pdf - Class instructions for the project
+
+Final Report.pdf - Our generated final report of our findings
 
 ## Usage
 
